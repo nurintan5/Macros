@@ -1,0 +1,10 @@
+Sub MacroPrimechanie()'
+' MacroPrim Macro' Macro recorded 17.08.00 by Oleg Rodionov
+'While counter < 7500
+If ActiveCell.Value <> Empty ThenIf ActiveCell.Comment.Text <> Empty Then
+ActiveCell.Comment.Visible = FalseActiveCell.Comment.Shape.Height = 400
+ActiveCell.Comment.Shape.Width = 400
+End IfEnd If
+ActiveCell.Offset(1, 0).Activatecounter = counter + 1
+Wend'
+    End Sub
